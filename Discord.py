@@ -22,4 +22,4 @@ async def on_message(Message):
         return None
 
 
-client.run("MTE5MjgyNjMwNDg2OTk1NzY2Mg.GVzFld.0-_a8w7lIDXeT3Kvbmg4Gt_yXNECfGIhFDVziw")
+client.run("MTE5MjgyNjMwNDg2OTk1NzY2Mg.G0AJJp.HIMMoilD99eaoCIGgTgayzDytB40Zpd2cFLhHU")
