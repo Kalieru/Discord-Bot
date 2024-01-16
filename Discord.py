@@ -22,4 +22,4 @@ async def on_message(Message):
         return None
 
 
-client.run(Key)
+client.run(Pass)
