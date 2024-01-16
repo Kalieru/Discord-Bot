@@ -24,5 +24,5 @@ async def on_message(Message):
         return None
 
 load_dotenv()
-Tokken = os.getenv(Key)
+Tokken = os.getenv("Pass")
 client.run(Tokken)
