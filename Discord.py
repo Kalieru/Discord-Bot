@@ -1,6 +1,8 @@
 import discord
 from discord.ext import commands
 from Lingo import *
+import os
+from dotenv import load_dotenv
 
 client = commands.Bot(command_prefix = "!", intents=discord.Intents.all())
 
@@ -21,5 +23,6 @@ async def on_message(Message):
                 await Message.channel.send(word)
         return None
 
-
-client.run(Pass)
+load_dotenv()
+Tokken = os.getenv(Key)
+client.run(Tokken)
