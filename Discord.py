@@ -1,6 +1,8 @@
 import discord
 from discord.ext import commands
 from Lingo import *
+import dotenv
+import os
 
 client = commands.Bot(command_prefix = "!", intents=discord.Intents.all())
 
@@ -22,4 +24,6 @@ async def on_message(Message):
         return None
 
 
-client.run("MTE5MjgyNjMwNDg2OTk1NzY2Mg.G0AJJp.HIMMoilD99eaoCIGgTgayzDytB40Zpd2cFLhHU")
+dotenv.load_dotenv()
+key = os.getenv('KEY')
+client.run(key)
