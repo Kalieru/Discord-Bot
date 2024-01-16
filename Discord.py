@@ -1,5 +1,5 @@
 import discord
-from Key.py import Key
+from Pass import Key
 from Lingo import *
 import dotenv
 
